@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<div class="page__main-home main-home">
+				<img src="../img/bg.png" alt="" class="main-home__bg">
+				<img src="../img/main-home.png" alt="" class="main-home__image">
+				<div class="main-home__container">
+					<div class="main-home__content">
+						<div class="main-home__title">Открытый вебинар:</div>
+						<h1>
+							Дерзкий турецкий: рецепт стильного общения.
+						</h1>
+						<div class="main-home__data">
+							Дата и время:
+							<span>14 ноября 20:00 мск</span>
+						</div>
+						<div class="main-home__author-mob">
+							Ведущий:
+							<span>Гёктюрк Чалышкан</span>
+						</div>
+					</div>
+					<a href="#" class="main-home__button button">Забронировать место</a>
+				</div>
+				<div class="main-home__author">
+					Ведущий:
+					<span>Гёктюрк Чалышкан</span>
+				</div>
+			</div>
+			<div class="page__present present">
+				<div class="present__container">
+					<div class="present__content">
+						<div class="present__title">
+							После регистрации пришлем
+							<br>
+							вам <span>в подарок гайд</span>
+							<br>
+							«Общение с соседями»
+						</div>
+						<div class="present__image">
+							<img src="../img/book.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__learn learn">
+				<div class="learn__container">
+					<div class="learn__title">Что вы освоите на уроке:</div>
+					<div class="learn__content">
+						<div class="learn__body">
+							<div class="learn__column">
+								<div class="learn__item">
+									<div class="learn__image">
+										<img src="../img/image-1.png" alt="">
+										<div class="learn__number">5</div>
+									</div>
+									<div class="learn__text">
+										Узнаете 5 простых слов, чтобы выразить совсем разные эмоции
+									</div>
+								</div>
+							</div>
+							<div class="learn__column">
+								<div class="learn__item">
+									<div class="learn__image">
+										<img src="../img/image-1.png" alt="">
+										<div class="learn__number blue">15</div>
+									</div>
+									<div class="learn__text blue">
+										Узнаете 15 разговорных выражений, от которых зависнет даже Гугл
+									</div>
+								</div>
+							</div>
+							<div class="learn__column">
+								<div class="learn__item">
+									<div class="learn__image">
+										<img src="../img/image-1.png" alt="">
+										<div class="learn__number blue">10</div>
+									</div>
+									<div class="learn__text blue">
+										Научитесь вести неформальный диалог с помощью 10 специальных выражений
+									</div>
+								</div>
+							</div>
+							<div class="learn__column">
+								<div class="learn__item">
+									<div class="learn__image">
+										<img src="../img/image-1.png" alt="">
+										<div class="learn__number">3</div>
+									</div>
+									<div class="learn__text">
+										Выучите 3 словосочетания, которые заменят все остальные фразы
+										в Турции
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<p>
+						Главное — вы начнете осваивать разговорный турецкий, благодаря которому станете своим в компании
+						турок.
+					</p>
+					<a href="#" class="learn__button button">Иду на вебинар</a>
+				</div>
+			</div>
+			<div class="page__speaker speaker">
+				<div class="speaker__container">
+					<div class="speaker__title">Вебинары проводит</div>
+					<div class="speaker__body">
+						<div class="speaker__content">
+							<div class="speaker__item item-speaker">
+								<div class="item-speaker__title">НОСИТЕЛЬ ЯЗЫКА</div>
+								<div class="item-speaker__subtitle">Знакомьтесь! Это Гектюрк Чалышкан</div>
+								<ul>
+									<li>Обучает турецкому языку более 10 лет</li>
+									<li>Выпускник Анкарского государственного университета</li>
+									<li>Свободно владеет русским и английским языками</li>
+									<li>Ведущий ютуб канала школы турецкого языка 'Диалог'</li>
+								</ul>
+							</div>
+						</div>
+						<div class="speaker__image">
+							<img src="../img/image-2.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__button">
+				<div class="button__container">
+					<a href="#" class="button">Иду на вебинар</a>
+				</div>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
