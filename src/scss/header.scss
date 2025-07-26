@@ -1,0 +1,28 @@
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 55px 0px;
+	z-index: 50;
+	@media (max-width: $mobile) {
+		padding: 38px 0px;
+	}
+	// .header__container
+	&__container {
+	}
+	// .header__content
+	&__content {
+	}
+	// .header__logo
+	&__logo {
+		img {
+			height: 62px;
+		}
+		@media (max-width: $mobile) {
+			img {
+				height: 49px;
+			}
+		}
+	}
+}
